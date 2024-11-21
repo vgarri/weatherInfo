@@ -1,0 +1,13 @@
+@import '../utils/mixins.scss';
+@import '../utils/variables.scss';
+
+.weather-card{
+    background-color: $light-blue;
+    margin: 20px;
+    max-width: 200px;
+    min-height: 100px;
+    border-radius: 8px;
+    padding: 20px;
+    align-content: space-between;
+    @include shadow($blue);
+}

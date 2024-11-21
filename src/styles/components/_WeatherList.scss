@@ -1,0 +1,53 @@
+// .weather-card{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+header {
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+h2 {
+    margin: 20px;
+    font-size: 40px;
+}
+
+input[type="text"],
+textarea {
+    font-size: larger;
+    width: 70%;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: center;
+    padding: 8px;
+
+}
+form > button {
+    font-size: xx-large;
+    padding: 8px;
+    margin: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: rgb(217, 173, 230);
+    border-radius: 8px;
+
+}
